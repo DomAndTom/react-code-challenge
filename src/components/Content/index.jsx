@@ -5,7 +5,7 @@ import Wrapper from "../Wrapper";
 import { useSearchContext } from "../../contexts/search";
 
 import { searchRamone } from "../../helpers/search";
-import { list } from "../../list.json";
+import list from "../../list.json";
 
 export default function Content() {
   const [ramones, setRamones] = useState([]);
